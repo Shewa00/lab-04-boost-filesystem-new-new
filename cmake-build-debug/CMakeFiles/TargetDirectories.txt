@@ -1,0 +1,5 @@
+D:/lab-04-boost-filesystem/cmake-build-debug/CMakeFiles/lab05.dir
+D:/lab-04-boost-filesystem/cmake-build-debug/CMakeFiles/tests.dir
+D:/lab-04-boost-filesystem/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/lab-04-boost-filesystem/cmake-build-debug/CMakeFiles/test.dir
+D:/lab-04-boost-filesystem/cmake-build-debug/CMakeFiles/edit_cache.dir
