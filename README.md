@@ -1,4 +1,6 @@
 [![Build Status](https://travis-ci.com/ARAOvsepyan/lab-04-boost-filesystem.svg?branch=master)](https://travis-ci.com/ARAOvsepyan/lab-04-boost-filesystem)
+![Code size](https://img.shields.io/github/languages/code-size/ARAOvsepyan/lab-04-boost-filesystem.svg)
+![GitHub Repo size](https://img.shields.io/github/repo-size/ARAOvsepyan/lab-04-boost-filesystem.svg)
 
 # Лабораторная работа №4
 
