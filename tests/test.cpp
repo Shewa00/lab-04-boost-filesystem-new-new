@@ -1,3 +1,4 @@
+//Copyright 2019 ARAOvsepyan
 #include <gtest/gtest.h>
 #include "FTPdriver.h"
 
