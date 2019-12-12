@@ -426,15 +426,24 @@ TEST(FTPdriver, testing_driver_search) {
                       "bcs balance_00123456_20181009.txt\n"
                       "bcs balance_00122223_20180906.txt\n"
                       "bcs balance_00122223_20180910.txt\n"
-                      "Broker:bcs Account:00123458 Files:47 Last date:20181018\n"
-                      "Broker:bcs Account:00122223 Files:45 Last date:20181016\n"
-                      "Broker:bcs Account:00143456 Files:45 Last date:20181016\n"
-                      "Broker:bcs Account:00123456 Files:43 Last date:20181014\n"
-                      "Broker:ib Account:00100001 Files:47 Last date:20181018\n"
-                      "Broker:ib Account:00100003 Files:46 Last date:20181017\n"
-                      "Broker:ib Account:00100002 Files:47 Last date:20181018\n"
-                      "Broker:otkritie Account:03934523 Files:46 Last date:20181017\n"
-                      "Broker:otkritie Account:03934520 Files:47 Last date:20181018\n";
+                      "Broker:bcs Account:00123458 Files:47 "
+                      "Last date:20181018\n"
+                      "Broker:bcs Account:00122223 Files:45 "
+                      "Last date:20181016\n"
+                      "Broker:bcs Account:00143456 Files:45 "
+                      "Last date:20181016\n"
+                      "Broker:bcs Account:00123456 Files:43 "
+                      "Last date:20181014\n"
+                      "Broker:ib Account:00100001 Files:47 "
+                      "Last date:20181018\n"
+                      "Broker:ib Account:00100003 Files:46 "
+                      "Last date:20181017\n"
+                      "Broker:ib Account:00100002 Files:47 "
+                      "Last date:20181018\n"
+                      "Broker:otkritie Account:03934523 Files:46 "
+                      "Last date:20181017\n"
+                      "Broker:otkritie Account:03934520 Files:47 "
+                      "Last date:20181018\n";
     auto path_ftp = boost::filesystem::path{"./../misc/ftp"};
     FTPdriver res(path_ftp);
     EXPECT_EQ(ans, res.FTPresult());
